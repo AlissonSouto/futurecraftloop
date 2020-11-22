@@ -20,3 +20,5 @@ formatações indicadas pelo professor.
 modelos de Tênis da marca.
 *Foi organizado melhor os códigos, para facilidade do
 trabalho da equipe e melhor compreensão do professor.
+*Criado o Readme.md com o Resumo das alterações e os 
+integrantes da equipe, como solicitado.
