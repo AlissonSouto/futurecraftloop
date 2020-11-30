@@ -6,7 +6,7 @@ RESUMO DE ALTERAÇÕES:
 contendo diferentes tipos de elementos.
 *Utilizamos o Media Queries para adaptar as páginas
 a dispositivos de diferentes tamanhos.
-*Markdown já foi criado na entrega anterior.
+*Adicionamos um Markdown chamado README.md, como solicitado.
 
 INTEGRANTES DA EQUIPE:
 Alisson souto
