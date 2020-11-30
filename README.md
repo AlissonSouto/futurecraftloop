@@ -8,17 +8,9 @@ Rekelmy Silva.
 
 RESUMO DE ALTERAÇÕES:
 
-*Foi corrigido problemas analizados pelo professor na 
-entrega anterior.
-*Criada uma conta no Github.
-*Criada a página "sobre" contendo o link do repositório 
-do projeto e o nome dos integrantes da equipe.
-*Atualizada a "página Fale conosco", com a tabela nas
-formatações indicadas pelo professor.
-*Background personalizado na página principal do proje.
-*Foi adicionada uma nova página chamada "modelos", com 
-modelos de Tênis da marca.
-*Foi organizado melhor os códigos, para facilidade do
-trabalho da equipe e melhor compreensão do professor.
-*Criado o Readme.md com o Resumo das alterações e os 
-integrantes da equipe, como solicitado.
+
+*Criamos um formulário para pedidos do Tênis, 
+contendo diferentes tipos de elementos.
+*Utilizamos o Media Queries para adaptar as páginas
+a dispositivos de diferentes tamanhos.
+*Markdown já foi criado na entrega anterior.
