@@ -1,37 +1,70 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="pt-br">
 
-You can use the [editor on GitHub](https://github.com/AlissonSouto/futurecraftloop/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+	<meta charset="UTF-8"/>
+	<title> Futurecraft </title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/> 
+	<link rel="shortcut icon" href="imagens/favicon.jpg">
+</head>
+<body background = "imagens/background.jpg">
+<div id="interface"> 
+	<header id="cabecalho">
+	<hgroup>
+	<h1>Futurecraft Loop</h1>
+	</hgroup>
+<figure class="foto-legenda">
+	<img src="imagens/tenis1.jpg"/>
+	<figcaption>
+		<h3>Futurecraft Loop</h3>
+		<p>"Primeiro tênis de corrida para ser refeito"</p>
+	</figcaption>
+</figure>
+<nav id="menu">
+	<h2>Menu Principal.</h2>
+	<ul>	
+		<li><a href="formulario.html" target="_blank">Garanta já o seu!</a></li>	
+		<li><a href="modelos.html" target="_blank">Modelos.</a></li>
+		<li><a href="faleconosco.html" target="_blank">Fale Conosco.</a></li>
+		<li><a href="sobre.html" target="_blank">Sobre.</a></li>
+	</ul>
+</nav>
+	</header>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<hgroup>
+<h2>Saiba mais sobre o tênis Futurecraft loop. </h2>
+</hgroup>
 
-### Markdown
+<p>O <b>Futurecraft Loop</b> é um Tênis fabricado pela ADIDAS, cujo diferencial é que ele é feito 100% de material reciclável.<br> Segundo a Empresa, trabalharam nesse produto nos ultimos 6 anos, com o objetivo de fazer sua parte na preservação do Meio ambiente, diminuindo<br> o número de resíduos maléficos ao planeta.</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<h2>Apresentação do modelo:</h2>
+<figure class="foto-um">
+	<img src="imagens/Apresentacao.jpg"/>
+</figure>
 
-```markdown
-Syntax highlighted code block
+<figure>
+	<div class="video-um">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/iUGi_vYYex8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+</figure>
+	
+<h2>Data de lançamento.</h2>
+<p><b>Futurecraft Loop</b> será lançado em edição limitada de 200 pares, e chega oficialmente ao mercado em 2021.</p>
 
-# Header 1
-## Header 2
-### Header 3
+<h2>Especificações Técnicas.</h2>
 
-- Bulleted
-- List
+   <p>O tênis foi projetado usando nada além de poliuretano termoplástico (TPU), um material plástico que reveste <br> o tênis inteiro, incluindo a língua, cordões, parte superior e a entressola com tecnologia de amortecimento Boost.</p>
+<footer id="rodape">
+<p>Copyright &copy; 2020 - by Equipe One.</p>
+</footer>
 
-1. Numbered
-2. List
+<div align="center" id="imgf">
+	<img src="imagens/forma.jpg" width="285"/> 
+</div>
 
-**Bold** and _Italic_ and `Code` text
+</div>
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AlissonSouto/futurecraftloop/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	
+	
+</body>
+</html>
