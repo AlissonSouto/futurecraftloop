@@ -1,0 +1,27 @@
+body{
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 12pt;
+}
+	
+form fieldset legend{
+	font-weight: bold;
+	font-size: 14pt;
+	color: #008b8b;
+}
+
+form input#cFem{
+	margin-left: 49px;
+}
+	
+form input#cX9000, #cUltra4D, #cY3, #c4DRun, #cConsortium, #cAlphaEdge{
+	margin-left: 67px;
+}
+	
+form input#cTam37, #cTam38, #cTam39, #cTam40{
+	margin-left: 86px;
+}
+
+form input#cEnvio{
+	font-size: 16pt;
+	margin: 12px 0px 0px 2px;
+}
