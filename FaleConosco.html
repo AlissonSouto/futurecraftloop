@@ -6,10 +6,18 @@
 	<title>Fale Conosco</title>
 	<link rel="stylesheet" type="text/css" href="_css/estilo-tabela.css"/>
 	<link rel="shortcut icon" href="imagens/favicon2.png">
+	<script>
+		function changeBackground(color){
+			document.body.style.background = color;
+		}
+		window.addEventListener("load", function(){
+		changeBackground("#333333");
+		})
+	</script>
 </head>
-
 <body>
-	<table id="tip">
+	<div class="tabela-contato">
+	<table id="contato">
 	<caption align="top">Fale Conosco</caption>
 	<tr>
 		<th>Nome</th>
@@ -28,7 +36,7 @@
 		<td>Rekelmy Silva</td><td><a href="rrsilvacg@gmail.com"> rrsilvacg@gmail.com</td>
 	</tr>
 	</table>
-
+</div>
 </body>
 
 </html>
