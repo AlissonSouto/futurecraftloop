@@ -1,42 +1,115 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
+<html>
 <head>
 	<meta charset="UTF-8"/>
-	<title>Fale Conosco</title>
-	<link rel="stylesheet" type="text/css" href="_css/estilo-tabela.css"/>
-	<link rel="shortcut icon" href="imagens/favicon2.png">
-	<script>
-		function changeBackground(color){
-			document.body.style.background = color;
-		}
-		window.addEventListener("load", function(){
-		changeBackground("#333333");
-		})
+	<title>Modelos</title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo-fotos.css"/>
+	<link rel="shortcut icon" href="imagens/modelos.jpg">
+	<script type="text/javascript" src="_javascript/funcoes.js">
 	</script>
 </head>
 <body>
-	<div class="tabela-contato">
-	<table id="contato">
-	<caption align="top">Fale Conosco</caption>
-	<tr>
-		<th>Nome</th>
-		<th>E-mail</th>
-	</tr>
-	<tr>
-		<td>Equipe One</td><td><a href="mailto:contatoequipeone@gmail.com">contatoequipeone@gmail.com</td>
-	</tr>
-	<tr>
-		<td>Alisson Souto</td><td><a href="mailto:alissonsoutosilva7@gmail.com">alissonsoutosilva7@gmail.com</td>
-	</tr>
-	<tr>
-		<td>Jonas Cristian</td><td><a href="jonascristian323232@gmail.com">jonascristian323232@gmail.com</td>
-	</tr>
-	<tr>
-		<td>Rekelmy Silva</td><td><a href="rrsilvacg@gmail.com"> rrsilvacg@gmail.com</td>
-	</tr>
-	</table>
-</div>
+	<div id="botoes">
+	<input type="button" value="Strung" class="botoes_tenis" onclick="mudaTenis('Strung')">
+	<input type="button" value="X9000" class="botoes_tenis"  onclick="mudaTenis('X9000')">
+	<input type="button" value="Ultra4D" class="botoes_tenis" onclick="mudaTenis('Ultra')">
+	<input type="button" value="Y3" class="botoes_tenis"  onclick="mudaTenis('Y3')">
+	<input type="button" value="Run" class="botoes_tenis" onclick="mudaTenis('Run')">
+	<input type="button" value="Consortium4D" class="botoes_tenis" onclick="mudaTenis('Consortium')">
+	<input type="button" value="Alpha" class="botoes_tenis" onclick="mudaTenis('Alpha')">
+	</div>
+	<div class="tenis_all">
+	<p class="paragrafo_tenis">4D Strung</p>
+	<figure class="fotos-tenis">
+		<img src="imagens/tenis/4D_Strung/4DSTRUNG_1.jpg">
+		<img src="imagens/tenis/4D_Strung/4DSTRUNG_2.jpg">
+		<img src="imagens/tenis/4D_Strung/4DSTRUNG_3.jpg">
+	</figure>
+	</div>
+	<div class="tenis_all">
+	<p>X9000</p>
+	<figure class="fotos-tenis">
+		<img src="imagens/tenis/X9000/preto_1.jpg">
+		<img src="imagens/tenis/X9000/preto_2.jpg">
+		<img src="imagens/tenis/X9000/preto_3.jpg">
+		<figcaption>
+			<p>Preto</p>
+		</figcaption>
+		<img src="imagens/tenis/X9000/cinza_1.jpg">
+		<img src="imagens/tenis/X9000/cinza_2.jpg">
+		<img src="imagens/tenis/X9000/cinza_3.jpg">
+		<figcaption>
+			<p>Cinza</p>
+		</figcaption>
+		<img src="imagens/tenis/X9000/preto-verde_1.jpg">
+		<img src="imagens/tenis/X9000/preto-verde_2.jpg">
+		<img src="imagens/tenis/X9000/preto-verde_3.jpg">
+		<figcaption class="ultimocap">
+			<p>Preto-verde</p>
+		</figcaption>
+	</figure>
+	</div>
+	<div class="tenis_all">
+	<p>Ultra4D</p>
+	<figure class="fotos-tenis">
+		<img src="imagens/tenis/Ultra4D/Ultra4D_1.jpg">
+		<img src="imagens/tenis/Ultra4D/Ultra4D_2.jpg">
+		<img src="imagens/tenis/Ultra4D/Ultra4D_3.jpg">
+	</figure>
+	</div>
+	<div class="tenis_all">
+	<p>Y3</p>
+	<figure class="fotos-tenis">
+		<figure class="duasimg">
+			<img src="imagens/tenis/Y3/preto_1.jpg">
+			<img src="imagens/tenis/Y3/preto_2.jpg">
+			<figcaption class="duasimgcap">
+				<p>Preto</p>
+			</figcaption>
+			<img src="imagens/tenis/Y3/preto-laranja_1.jpg">
+			<img src="imagens/tenis/Y3/preto-laranja_2.jpg">
+			<figcaption class="ultimocap">
+				<figcaption class="ultdimgcap">
+					<p>Preto-laranja</p>
+				</figcaption>
+			</figcaption>
+		</figure>
+	</figure>
+	</div>
+	<div class="tenis_all">
+	<p>4D Run</p>
+	<figure class="fotos-tenis">
+		<figure class="umaimg">
+			<img src="imagens/tenis/4D_RUN/4DRUN_1.jpg">
+		</figure>
+	</figure>
+	</div>
+	<div class="tenis_all">
+	<p>Consortium4D</p>
+	<figure class="fotos-tenis">
+		<figure class="umaimg">
+			<img src="imagens/tenis/Consortium4D/Consortium4D_1.jpg">
+				<figcaption class="umaimgcap">
+					<p>Preto-verde</p>
+				</figcaption>
+			<img src="imagens/tenis/Consortium4D/Consortium4D_2.jpg">
+				<figcaption class="umaimgcap">
+					<p>Preto-laranja</p>
+				</figcaption>
+			<img src="imagens/tenis/Consortium4D/Consortium4D_3.jpg">
+				<figcaption class="ultimocap">
+					<figcaption class="ultuimgcap">
+						<p>Verde</p>
+					</figcaption>
+		</figure>
+	</figure>
+	</div>
+	<div class="tenis_all">
+	<p>AlphaEdge4D</p>
+	<figure class="fotos-tenis">
+		<img src="imagens/tenis/AlphaEdge4D/AlphaEdge4D_1.jpg">
+		<img src="imagens/tenis/AlphaEdge4D/AlphaEdge4D_2.jpg">
+		<img src="imagens/tenis/AlphaEdge4D/AlphaEdge4D_3.jpg">
+	</figure>
+	</div>
 </body>
-
 </html>
