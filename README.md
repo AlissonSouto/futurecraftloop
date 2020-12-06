@@ -8,7 +8,7 @@ para facilitar a procura por Tênis.
 como pedido pelo Professor.
 *Usamos JavaScript para animações, como solicitado 
 pelo professor.
-*
+*Colocamos os arquivos "soltos" aqui no repositório.
 
 INTEGRANTES DA EQUIPE:
 Alisson souto
