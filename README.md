@@ -4,13 +4,8 @@ Projeto de PWEB sobre o Tênis Futurecraft loop
 Projeto de PWEB sobre o Tênis Futurecraft loop
 RESUMO DE ALTERAÇÕES:
 
-* Fizemos algumas modificações na página Modelos
-para facilitar a procura por Tênis.
-*Usamos JavaScript para validar os dados do formulário,
-como pedido pelo Professor.
-*Usamos JavaScript para animações, como solicitado 
-pelo professor.
-*
+* Atualizamos as páginas com bootstrap
+Pra que possa utilizar em outros dispositivos, como celulares.
 
 INTEGRANTES DA EQUIPE:
 Alisson souto
